@@ -1,4 +1,4 @@
-""" HN historic """
+""" HN_history """
 import requests, json, pickle, csv
 from bs4 import BeautifulSoup
 from utilities.functional_utils import *
@@ -43,10 +43,6 @@ def get_frequencies(target):
 			res[each] = each_res
 		return res
 
-# print(get_frequencies("github.com"))
-# print(get_frequencies(["nytimes.com", "github.com"]))
-
-
 
 # Graphing frequency of occurance of given site for each month since Oct 2015
 def plot_sequence(seq):
@@ -56,7 +52,6 @@ def plot_sequence(seq):
 		months.append(each[0])
 		freq_count.append(each[1])
 	plt.plot(months, freq_count)
-
 
 def graph_frequencies(target):
 	plt.title("Appearances on HN")
@@ -77,12 +72,8 @@ def graph_frequencies(target):
 		plt.legend(titles)
 		plt.show()
 
-graph_frequencies("scientificamerican.com")
-# graph_frequencies(["yahoo.com", "google.com"])
 
-
-
-# Getting posts that occured most frequently in a certain time interval
+# Getting posts that occured most frequently in a given time interval
 def get_top_in_interval(start_month, start_year, end_month, end_year, top_x=50):
 	""" Get all posts of interval. Frequency rank them. Print out results for requested period. """
 	all_posts = get_all_posts_of_interval(start_month, start_year, end_month, end_year)
@@ -103,6 +94,14 @@ def get_top_in_interval(start_month, start_year, end_month, end_year, top_x=50):
 def get_top(x_top):
 	res = get_top_in_interval("10", "2015", "11", "2018", x_top)
 	return res
+
+
+# Use:
+# print(get_frequencies("github.com"))
+# print(get_frequencies(["nytimes.com", "github.com", "bloomberg.com"]))
+
+# graph_frequencies("scientificamerican.com")
+# graph_frequencies(["yahoo.com", "google.com"])
 
 # get_top_in_interval("09", "2017", "11", "2018", 100)
 # get_top(35)
