@@ -47,22 +47,28 @@ def get_frequencies(target):
 # Graphing frequency of occurance of given site for each month since Oct 2015
 def plot_sequence(seq):
 	months = []
+	for each in range(0,38):
+		months.append(each)
+
+
 	freq_count = []
 	for each in seq:
-		months.append(each[0])
+		#bmonths.append(each[0])
 		freq_count.append(each[1])
 	plt.plot(months, freq_count)
 
 def graph_frequencies(target):
-	plt.title("Appearances on HN")
-	plt.xlabel("Months")
-	plt.xlabel("Frequency")
+	# plt.ylabel("Frequency")
 
 	if isinstance(target, str):
+		plt.title(target)
+		plt.xlabel("Monthly appearances on HN between Oct 2015 and Nov 2018")
 		results = get_frequencies(target)
 		plot_sequence(results)
 		plt.show()
 	else:
+		plt.title("Comparing Monthly Appearances")
+		plt.xlabel("Monthly appearances on HN between Oct 2015 and Nov 2018")
 		results = get_frequencies(target)
 		titles = []
 		for k, v in results.items():
@@ -101,7 +107,7 @@ def get_top(x_top):
 # print(get_frequencies(["nytimes.com", "github.com", "bloomberg.com"]))
 
 # graph_frequencies("scientificamerican.com")
-# graph_frequencies(["yahoo.com", "google.com"])
+# graph_frequencies(["yahoo.com", "scientificamerican.com", "vox.com"])
 
 # get_top_in_interval("09", "2017", "11", "2018", 100)
 # get_top(35)
