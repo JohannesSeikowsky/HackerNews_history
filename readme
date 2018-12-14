@@ -1,0 +1,17 @@
+
+# method of Extraction seems to start working from
+# October 2015 onwards -- not before --
+# other method of extraction would need to
+# devised to take care of dates before 2015 --
+
+
+# idea --
+# from 2015.10.01 onward ...
+# find  x most commonly appearing sites
+# -- economist, guardian etc --
+# and map each sites month appearance over all the months
+# between 2015.10.01 and today ...
+
+# which sites appeared the most
+# how often did each appear in each month
+
