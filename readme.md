@@ -42,10 +42,10 @@ displays top 111 between October 2017 and October 2018
 
 #### Background
 I queried the Waybackmachine for all available snapshots of HackerNews.
-For each available day I randomly chose one of the timestamps of that day,
-retrieved it's HTML and extracted the top30 posts. I saved the results in csv files,
-one for each month (in data/results). The main function of HackerNews_history
-are relatively simple functions executed on these results.
+For each available day I randomly chose one of the available timestamps of that day,
+retrieved it's HTML and extracted the usual top 30 posts. I saved the results in csv files,
+each file containing the results of one specific month (see data/results directory). 
+The main functions of HackerNews_history are relatively straightforward functions executed "on" these results.
+Note: this is a first version - bugs may happen.
 
-
-For questions, write me - joseikowksy@gmail.com
+**For questions, write me - joseikowksy@gmail.com**
