@@ -49,4 +49,4 @@ retrieved it's HTML and extracted its top 30 posts. I saved the results in csv f
 with each file containing the results of each day of a certain month (see "data/results" directory). 
 The main functions of HackerNews_history are relatively straightforward functions that can be executed on these results.
 
-**For questions, write me - joseikowsky@gmail.com**
+**For questions - joseikowsky@gmail.com**
