@@ -17,7 +17,7 @@ Get the x most-frequently-occurring websites on HN for particular time period(s)
 `run command you want in terminal`
 
 
-#### Commands by Example
+#### Commands
 
 `graph("scientificamerican.com")`
 
