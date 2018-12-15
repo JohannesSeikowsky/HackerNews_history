@@ -1,6 +1,6 @@
 ## HackerNews_history
 
-Graph how often specific websites appeared on HN each month since Oct 2015.
+Graph how often specific websites have appeared on HN each month since Oct 2015.
 
 Get the x most-frequently-occurring websites on HN for particular time periods.
 
@@ -14,10 +14,10 @@ Get the x most-frequently-occurring websites on HN for particular time periods.
 
 `python3 main.py`
 
-`run relevant command in terminal`
+`run relevant command in terminal / see below`
 
 
-#### Commands
+#### Examples
 
 `graph("scientificamerican.com")`
 
@@ -42,9 +42,9 @@ Get the x most-frequently-occurring websites on HN for particular time periods.
 
 #### Background
 I queried the Waybackmachine for all available snapshots of HackerNews.
-For each available day I randomly chose one of the available timestamps of that day,
-retrieved it's HTML and extracted the usual top 30 posts. I saved the results in csv files,
-each file containing the results of one specific month (data/results directory). 
+For each day for which there were snapshots, I chose one at random, 
+retrieved it's HTML and extracted the top 30 posts. I saved the results in csv files,
+each file containing the results of the each day of a specific month (data/results directory). 
 The main functions of HackerNews_history are relatively straightforward functions executed on these results.
 
 **For questions, write me - joseikowksy@gmail.com**
