@@ -1,8 +1,8 @@
 ## HackerNews_history
 
-Graph how often specific website(s) appeared on HN each month since Oct 2015.
+Graph how often specific websites appeared on HN each month since Oct 2015.
 
-Get the x most-frequently-occurring websites on HN for particular time period(s).
+Get the x most-frequently-occurring websites on HN for particular time periods.
 
 
 #### Use
