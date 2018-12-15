@@ -42,7 +42,7 @@ Examples of the commands that can be run from the command-line if you execute ma
 -> displays top 111 between October 2017 and October 2018
 
 
-#### Project Background
+#### Background
 I queried the Waybackmachine for all available snapshots of HackerNews.
 For each day for which there were snapshots, I chose one snapshot at random, 
 retrieved it's HTML and extracted its top 30 posts. I saved the results in csv files,
