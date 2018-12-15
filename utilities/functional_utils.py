@@ -1,5 +1,6 @@
 # supporting utility functions
-import pickle, requests, json, csv
+import pickle, json, csv
+# import requests
 
 def pickle_out(pickle_file, input_object):
 	pickle_file = open(pickle_file, "wb")

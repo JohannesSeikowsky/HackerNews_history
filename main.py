@@ -1,6 +1,7 @@
 """ HN_history """
-import requests, json, pickle, csv
-from bs4 import BeautifulSoup
+import json, pickle, csv
+# import requests
+# from bs4 import BeautifulSoup
 from utilities.functional_utils import *
 from retrieving_posts import *
 from data.helpers import months_and_days, month_index
@@ -57,7 +58,7 @@ def plot_sequence(seq):
 		freq_count.append(each[1])
 	plt.plot(months, freq_count)
 
-def graph_frequencies(target):
+def graph(target):
 	# plt.ylabel("Frequency")
 
 	if isinstance(target, str):
@@ -102,12 +103,29 @@ def get_top(x_top):
 	return res
 
 
-# Use:
-# print(get_frequencies("github.com"))
-# print(get_frequencies(["nytimes.com", "github.com", "bloomberg.com"]))
+# command execution by user
+user_cmd = input("Type 'help' to get overview of commands. \nYour command: \n")
+eval(user_cmd)
 
-# graph_frequencies("scientificamerican.com")
-# graph_frequencies(["yahoo.com", "scientificamerican.com", "vox.com"])
+# help case
+cmd_overview = """
+graph("scientificamerican.com")
+--> graphs no of appearances of scientificamerican.com for each month since Oct 2015
 
-# get_top_in_interval("09", "2017", "11", "2018", 100)
-# get_top(35)
+graph(["yahoo.com", "google.com", "vox.com"])
+--> graphs no of appearances of yahoo, google and vox on the same graph.
+
+get_top(35)
+-> displays top 35 sites between Oct 2015 and Nov 2018
+
+get_top_in_interval("03", "2017", "07", "2018")
+-> displays top 50 sites between March 2017 and July 2018
+
+get_top_in_interval("10", "2017", "10", "2018", 111)
+-> displays top 111 between October 2017 and October 2018
+"""
+
+if user_cmd == "help":
+	print("\n" + cmd_overview + "\n")
+	user_cmd = input("\nType command:\n")
+	eval(user_cmd)

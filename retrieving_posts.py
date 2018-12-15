@@ -8,8 +8,9 @@
  - from the returned html, parse out the top HN posts
 """
 
-import requests, json, pickle, csv
-from bs4 import BeautifulSoup
+import json, pickle, csv
+# import requests
+# from bs4 import BeautifulSoup
 from utilities.functional_utils import *
 from data.helpers import months_and_days, month_index
 from collections import Counter
