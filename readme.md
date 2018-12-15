@@ -14,7 +14,7 @@ Get the x most-frequently-occurring websites on HN for particular time period(s)
 
 `python3 main.py`
 
-`run the command you want straight in terminal`
+`run command you want straight in terminal`
 
 
 #### Commands by Example
@@ -38,6 +38,7 @@ Get the x most-frequently-occurring websites on HN for particular time period(s)
 `get_top_in_interval("10", "2017", "10", "2018", 111)`
 
 --> displays top 111 between October 2017 and October 2018
+
 
 
 For questions, write me - joseikowksy@gmail.com
