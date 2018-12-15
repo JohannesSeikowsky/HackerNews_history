@@ -46,6 +46,5 @@ For each available day I randomly chose one of the available timestamps of that 
 retrieved it's HTML and extracted the usual top 30 posts. I saved the results in csv files,
 each file containing the results of one specific month (data/results directory). 
 The main functions of HackerNews_history are relatively straightforward functions executed on these results.
-Please know that this is version 1 - bugs may happen.
 
 **For questions, write me - joseikowksy@gmail.com**
