@@ -1,4 +1,11 @@
-Historic Analysis of HackerNews using Waybackmachine data // Graph how often specific website(s) appeared on HN each month since Oct 2015 // Get the x most-frequently-occurring websites on HN for a certain time period // version 0.1.
+## HackerNews_history
+
+Graph how often specific website(s) appeared on HN each month since Oct 2015.
+
+Get the x most-frequently-occurring websites on HN for a certain time period.
+
+version 0.1.
+
 
 #### Use
 `git clone https://github.com/JohannesSeikowsky/HackerNews_history.git`
