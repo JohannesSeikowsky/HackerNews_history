@@ -5,7 +5,7 @@ Graph how often specific website(s) appeared on HN each month since Oct 2015.
 Get the x most-frequently-occurring websites on HN for particular time period(s).
 
 
-#### Use
+#### Use HackerNews_history
 `git clone https://github.com/JohannesSeikowsky/HackerNews_history.git`
 
 `pip3 install matplotlib`
@@ -20,7 +20,8 @@ Get the x most-frequently-occurring websites on HN for particular time period(s)
 
 
 #### Commands by Example
-- graph("scientificamerican.com")
+
+`graph("scientificamerican.com")`
 
 --> graphs no of appearances of scientificamerican.com for each month since Oct 2015
 
