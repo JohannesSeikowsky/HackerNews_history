@@ -1,7 +1,7 @@
 ## HackerNews_history
 
-#### Main Functionalities
--Graph how often specific websites have appeared on HN each month since Oct 2015.
+#### Functionalities
+- Graph how often specific websites have appeared on HN each month since Oct 2015.
 
 - Get the x most-frequently-occurring websites on HN for particular time periods.
 
@@ -44,9 +44,9 @@ Examples of the main commands that can be run from the command-line if you run m
 
 #### Background
 I queried the Waybackmachine for all available snapshots of HackerNews.
-For each day for which there were snapshots, I chose one at random, 
+For each day for which there were snapshots, I chose one snapshot at random, 
 retrieved it's HTML and extracted its top 30 posts. I saved the results in csv files,
-each file containing the results of each day of a specific month (see data/results directory). 
+with each file containing the results of each day of a certain month (see "data/results" directory). 
 The main functions of HackerNews_history are relatively straightforward functions that can be executed on these results.
 
-**For questions, write me - joseikowksy@gmail.com**
+**For questions, write me - joseikowskyy@gmail.com**
