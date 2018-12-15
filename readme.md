@@ -1,4 +1,4 @@
-Historic Analysis of HackerNews using Waybackmachine data.
+Historic Analysis of HackerNews using Waybackmachine data // Graph how often specific website(s) appeared on HN each month since Oct 2015 // Get the x most-frequently-occurring websites on HN for a certain time period // version 0.1.
 
 #### Use
 `git clone https://github.com/JohannesSeikowsky/HackerNews_history.git`
@@ -9,9 +9,8 @@ Historic Analysis of HackerNews using Waybackmachine data.
 
 `python3 main.py`
 
-`help` to get overview of commands
+run command you want in terminal // help get overview of commands
 
-run command you want in terminal
 
 #### Commands
 graph("scientificamerican.com")
