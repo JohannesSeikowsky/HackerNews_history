@@ -1,8 +1,9 @@
 ## HackerNews_history
 
-Graph how often specific websites have appeared on HN each month since Oct 2015.
+#### Main Functionalities
+-Graph how often specific websites have appeared on HN each month since Oct 2015.
 
-Get the x most-frequently-occurring websites on HN for particular time periods.
+- Get the x most-frequently-occurring websites on HN for particular time periods.
 
 
 #### Use
@@ -18,7 +19,7 @@ Get the x most-frequently-occurring websites on HN for particular time periods.
 
 
 #### Commands
-Examples of the main commands that can be run from the Command line, if you run main.py.
+Examples of the main commands that can be run from the command-line if you run main.py:
 
 `graph("scientificamerican.com")`
 
