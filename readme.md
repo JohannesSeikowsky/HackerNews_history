@@ -1,4 +1,4 @@
-## HackerNews_history v 0.1.
+## HackerNews_history
 
 Graph how often specific website(s) appeared on HN each month since Oct 2015.
 
@@ -14,10 +14,12 @@ Get the x most-frequently-occurring websites on HN for particular time period(s)
 
 `python3 main.py`
 
-`run command you want straight in terminal`
+`run the command you want straight in terminal`
+
+`help to get overview of commands`
 
 
-#### Commands
+#### Commands by Example
 - graph("scientificamerican.com")
 
 --> graphs no of appearances of scientificamerican.com for each month since Oct 2015
