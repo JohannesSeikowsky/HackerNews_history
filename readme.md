@@ -14,10 +14,11 @@ Get the x most-frequently-occurring websites on HN for particular time periods.
 
 `python3 main.py`
 
-`run relevant command in terminal / see below`
+`run relevant command in terminal`
 
 
-#### Examples
+#### Commands
+These are examples of the main commands that can be run from the Command line, if you run the main.py program of the project.
 
 `graph("scientificamerican.com")`
 
@@ -43,8 +44,8 @@ Get the x most-frequently-occurring websites on HN for particular time periods.
 #### Background
 I queried the Waybackmachine for all available snapshots of HackerNews.
 For each day for which there were snapshots, I chose one at random, 
-retrieved it's HTML and extracted the top 30 posts. I saved the results in csv files,
-each file containing the results of the each day of a specific month (data/results directory). 
-The main functions of HackerNews_history are relatively straightforward functions executed on these results.
+retrieved it's HTML and extracted its top 30 posts. I saved the results in csv files,
+each file containing the results of each day of a specific month (see data/results directory). 
+The main functions of HackerNews_history are relatively straightforward functions that can be executed on these results.
 
 **For questions, write me - joseikowksy@gmail.com**
