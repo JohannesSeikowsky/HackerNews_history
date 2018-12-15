@@ -18,7 +18,7 @@ Get the x most-frequently-occurring websites on HN for particular time periods.
 
 
 #### Commands
-These are examples of the main commands that can be run from the Command line, if you run the main.py program of the project.
+Examples of the main commands that can be run from the Command line, if you run main.py.
 
 `graph("scientificamerican.com")`
 
