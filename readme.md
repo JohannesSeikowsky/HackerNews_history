@@ -14,7 +14,7 @@ Get the x most-frequently-occurring websites on HN for particular time period(s)
 
 `python3 main.py`
 
-`run command you want straight in terminal`
+`run command you want in terminal`
 
 
 #### Commands by Example
@@ -25,7 +25,7 @@ Get the x most-frequently-occurring websites on HN for particular time period(s)
 
 `graph(["yahoo.com", "google.com", "vox.com"])`
 
---> graphs no of appearances of yahoo, google and vox on the same graph.
+--> graphs no of appearances of yahoo, google and vox on the same graph
 
 `get_top(35)`
 
